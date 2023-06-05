@@ -20,7 +20,7 @@ const Footer = () => (
         Join us for 50th Anniversary
         </h4>
         
-        <a href="">
+        <a href="https://www.google.com/maps/dir/28.6359438,77.2290188/mukut+residiency/@28.6372909,77.231325,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfb75eb8c6081:0xb6b83597604eb395!2m2!1d77.3638099!2d28.6545806?entry=ttu">
         <button  type="button"  className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/headset.svg"
@@ -28,7 +28,7 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Invitation Card
+            Venu Map Location
           </span>
         </button>
         </a>

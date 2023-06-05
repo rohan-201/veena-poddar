@@ -33,7 +33,7 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     
     subtitle:
-        'Place : (4th floor) Hotel Mukut Regency Banquet Hall Plot no. CC1, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012',
+        'Place : (4th floor) Hotel Mukut Regency Banquet Hall Plot no. CC1, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012  ' ,
   },
   {
     imgUrl: '/headset.svg',
