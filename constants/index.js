@@ -23,7 +23,7 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Dress code is "as per convinence"',
+  'Dress code is "as per convenience"',
   'Blessings only',
   'Important thing is to have fun :)',
 ];
