@@ -27,7 +27,7 @@ const About = () => (
 
 It's hard to believe that half a century has passed since these two wonderful people exchanged vows and began their journey together. 
 
-To honor this special milestone, we cordially invite you to join us for a joyous celebration in their honor. Let's come together to raise a toast to their unwavering commitment to each other, their family, and their community.{' '}
+To honor this special milestone, we cordially invite you to join us for a joyous celebration in their honor. Let's come together to raise a toast to their unwavering commitment to each other.{' '}
         
       </motion.p>
 
