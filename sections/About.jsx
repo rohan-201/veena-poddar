@@ -16,21 +16,37 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About " textStyles="text-center" />
+      <TypingText title="| Photo" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white font-serif">Please </span>
-         join us in celebrating the golden anniversary of Umakant and Veena Poddar, who will be marking 50 years of love and companionship on (15 june, 2023).
-
-It's hard to believe that half a century has passed since these two wonderful people exchanged vows and began their journey together. 
-
-To honor this special milestone, we cordially invite you to join us for a joyous celebration in their honor. Let's come together to raise a toast to their unwavering commitment to each other.{' '}
+        <span className="font-extrabold text-white font-serif"> </span>
+         {' '}
         
       </motion.p>
+      {' '}
 
+      <div className="flex items-center justify-between flex-wrap gap-5">
+        <h4 className="font-bold md:text-[50px] text-[44px] text-white ">
+        Get your event photos by clicking button
+        </h4>
+        
+        <a href="https://drive.google.com/drive/folders/1g-cGNNB70FR7DYRs0rPEs6qcKB-P082l?usp=sharing">
+        <button  type="button"  className="flex  items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+          <img
+            src="/headset.svg"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Image Gallery
+          </span>
+        </button>
+        </a>
+      </div>
+      
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
         src="/arrow-down.svg"
